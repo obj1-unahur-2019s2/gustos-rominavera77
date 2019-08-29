@@ -1,0 +1,8 @@
+import personas.*
+import objetos.*
+
+test "juan" {
+
+	assert.that(true)
+
+}
