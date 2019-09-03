@@ -3,6 +3,18 @@ import objetos.*
 
 test "juan" {
 
-	assert.that(true)
+	assert.that(juan.leGusta(biblioteca))
+	assert.that(juan.leGusta(arito))
+	assert.that(juan.leGusta(munieco))
+	assert.notThat(juan.leGusta(banquito))
+	assert.notThat(juan.leGusta(remera))
+}
 
+test "luisa" {
+	
+	assert.that(luisa.leGusta(cajita))
+	assert.that(luisa.leGusta(placa))
+	assert.notThat(luisa.leGusta(pelota))
+	assert.notThat(luisa.leGusta(remera))
+	
 }
